@@ -1,0 +1,21 @@
+.footer-nav-list {
+    margin: 0;
+    padding: 16px 0;
+    border-top: 1px solid rgba($white, .5);
+    border-bottom: 1px solid rgba($white, .5);
+    @include media-breakpoint-up(lg) {
+        margin-top: -5px;
+        margin-bottom: -5px;
+        padding: 0;
+        border: none;
+    }
+}
+
+.footer-nav-link {
+    display: inline-block;
+    padding: 8px 0;
+    @include media-breakpoint-up(lg) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

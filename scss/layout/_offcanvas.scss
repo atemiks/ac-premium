@@ -1,0 +1,94 @@
+.offcanvas {
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    height: 100%;
+    max-height: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 30px;
+    background: $white;
+    transform: translateX(100%);
+    font-size: 18px;
+    -webkit-overflow-scrolling: touch;
+
+    &.is-animate {
+        transition: opacity 100ms ease, transform 100ms ease;
+    }
+
+    &.is-open {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+}
+
+.offcanvas-header {
+    padding: 50px 0;
+}
+
+
+/* offcanvas logo */
+.offcanvas-logo {
+    &:hover {
+        border: none;
+    }
+}
+
+.offcanvas-logo-image {
+    width: 59px;
+    height: 64px;
+}
+/* offcanvas logo */
+
+
+/* offcanvas close */
+.offcanvas-close {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border: 0;
+    background: none;
+    transform: translateY(-85%);
+    color: currentColor;
+}
+/* offcanvas close end */
+
+
+/* offcanvas nav */
+.offcanvas-nav-list {
+    margin: 0 0 23px;
+}
+
+.offcanvas-nav-item {
+    &:not(:last-child) {
+        margin-bottom: 23px;
+    }
+}
+/* offcanvas nav end */
+
+
+/* offcanvas social */
+.offcanvas-social-list {
+    margin-bottom: 35px;
+}
+
+
+/* offcanvas social end */
+
+
+/* offcanvas actions */
+.offcanvas-actions-list {
+    margin: 0;
+}
+
+.offcanvas-action-item {
+    margin-bottom: 15px;
+}
+/* offcanvas actions nd */

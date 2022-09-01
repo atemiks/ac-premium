@@ -1,0 +1,17 @@
+.dropdown-menu {
+    max-width: 410px;
+    margin: 0;
+    padding: 30px 30px;
+    border: none;
+    border-radius: 0;
+    background: $white;
+    box-shadow: 0 3px 50px rgba(34, 38, 40, 0.15);
+}
+
+.dropdown-header {
+    margin: 0 0 15px;
+    padding: 0;
+    color: currentColor;
+    font-size: inherit;
+    white-space: normal;
+}

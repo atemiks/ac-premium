@@ -1,0 +1,40 @@
+.card-advantage {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @include media-breakpoint-up(md) {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    @include media-breakpoint-up(lg) {
+        max-width: 370px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+}
+
+.card-advantage-header {
+    margin-bottom: 30px;
+}
+
+.card-advantage-title {
+    max-width: 170px;
+    margin: 0 0 0 35px;
+    @include media-breakpoint-down(sm) {
+        font-size: 18px;
+    }
+    @include media-breakpoint-only(sm) {
+        margin-left: 20px;
+    }
+}
+
+.card-advantage-description {
+    margin-left: 55px;
+    @include media-breakpoint-only(sm) {
+        margin-left: 40px;
+    }
+}
+
+.card-advantage-media {
+    flex-shrink: 0;
+    margin-left: auto;
+}

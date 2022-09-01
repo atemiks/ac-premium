@@ -1,0 +1,33 @@
+.section-partners {
+    margin-top: 110px;
+    margin-bottom: 110px;
+    @include media-breakpoint-up(lg) {
+        margin-top: 140px;
+        margin-bottom: 190px;
+    }
+
+    .section-header {
+        margin-bottom: 60px;
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 70px;
+        }
+    }
+}
+
+.swiper-partners {
+    .swiper-partners-button-prev,
+    .swiper-partners-button-next {
+        position: absolute;
+        top: 220px;
+        transform: translateY(-50%);
+        background: rgba($white, .6);
+    }
+
+    .swiper-partners-button-prev {
+        left: 15px;
+    }
+
+    .swiper-partners-button-next {
+        right: 15px;
+    }
+}

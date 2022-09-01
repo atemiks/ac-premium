@@ -1,0 +1,33 @@
+.section-projects {
+    margin-top: 125px;
+    margin-bottom: 125px;
+    @include media-breakpoint-up(lg) {
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+
+    .section-header {
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 45px;
+        }
+    }
+}
+
+.projects-grid {
+    margin-left: -$grid-gutter-width/2;
+    margin-right: -$grid-gutter-width/2;
+    margin-bottom: 45px;
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 65px;
+    }
+    @include media-breakpoint-up(xxl) {
+        margin-left: -$grid-gutter-width*2.5;
+        margin-right: -$grid-gutter-width*2.5;
+    }
+
+    .project-item {
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.header-application-btn {
+    margin-left: 10px;
+    @include media-breakpoint-up(xl) {
+        margin-left: 20px;
+    }
+    @include media-breakpoint-up(xxl) {
+        margin-left: 50px;
+    }
+}

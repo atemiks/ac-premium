@@ -1,0 +1,32 @@
+.header-logo {
+    display: block;
+    margin-top: 115px;
+    width: 276px;
+    height: 52px;
+    transition: width 300ms ease, height 300ms ease, margin 300ms ease;
+    @include media-breakpoint-up(lg) {
+        width: 210px;
+        height: 49px;
+        margin-top: 0;
+    }
+    @include media-breakpoint-up(xl) {
+        width: 259px;
+        height: 49px;
+    }
+
+    &:hover {
+        border: none;
+    }
+
+    .is-fixed & {
+        width: 210px;
+        height: 49px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.header-logo-image {
+    width: inherit;
+    height: inherit;
+}

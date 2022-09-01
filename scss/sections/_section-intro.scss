@@ -1,0 +1,60 @@
+.section-intro {
+    max-width: 2140px;
+    margin: 0 auto 90px;
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 170px;
+        padding-top: 100px;
+    }
+}
+
+.intro-title {
+    margin: 0 0 0.65em;
+    @include media-breakpoint-up(md) {
+        margin: 0;
+    }
+}
+
+.intro-description {
+    margin-bottom: 2em;
+    font-size: 16px;
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 2.4em;
+        font-size: 18px;
+    }
+}
+
+.swiper-intro {
+    margin-top: 95px;
+    margin-bottom: 90px;
+    @include media-breakpoint-up(lg) {
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+}
+
+.swiper-intro-thumbnail {
+    position: relative;
+    padding-bottom: 500px;
+
+    @include media-breakpoint-up(lg) {
+        height: auto;
+        padding-bottom: 41%;
+    }
+}
+
+.swiper-intro-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.swiper-intro-pagination {
+    margin: 20px 0 0;
+    @include media-breakpoint-up(lg) {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,32 @@
+.footer-contact-list {
+    margin: 0 0 20px;
+    padding: 25px 0;
+    border-top: 1px solid rgba($white, .5);
+    border-bottom: 1px solid rgba($white, .5);
+    @include media-breakpoint-up(lg) {
+        margin-top: 5px;
+        margin-bottom: 45px;
+        padding: 0;
+        border: none;
+    }
+}
+
+.footer-contact-item {
+    margin-bottom: 15px;
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 20px;
+    }
+
+    &:last-child {
+        margin-top: 15px;
+        margin-bottom: 0;
+        @include media-breakpoint-up(lg) {
+            margin: 0;
+        }
+    }
+}
+
+.footer-contact-link {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

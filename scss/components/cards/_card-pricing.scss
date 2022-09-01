@@ -1,0 +1,98 @@
+.card-pricing-title {
+    margin: 0;
+}
+
+.card-pricing-subtitle {
+    margin-top: 0.25em;
+    font-size: 14px;
+    @include media-breakpoint-up(md) {
+        margin-top: 0.35em;
+        font-size: 16px;
+    }
+}
+
+.card-pricing-toggle {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 25px 25px 25px 0;
+    border: none;
+    border-radius: 0;
+    background: none;
+    @include media-breakpoint-up(md) {
+        padding: 30px 60px 30px 0;
+    }
+
+    &::after {
+        position: absolute;
+        top: 32px;
+        right: 0;
+        width: 14px;
+        height: 14px;
+        background: currentColor;
+        transition: clip-path 300ms ease;
+        content: '';
+        @include media-breakpoint-up(md) {
+            top: 36px;
+            width: 20px;
+            height: 20px;
+        }
+        @include media-breakpoint-up(xl) {
+            top: 42px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    &[aria-expanded='false'] {
+        &::after {
+            clip-path: polygon(0 45%, 45% 45%, 45% 0, 55% 0, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 100%, 45% 100%, 45% 55%, 0 55%);
+        }
+    }
+
+    &[aria-expanded='true'] {
+        &::after {
+            clip-path: polygon(0 45%, 45% 45%, 45% 45%, 55% 45%, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 55%, 45% 55%, 45% 55%, 0 55%);
+        }
+    }
+}
+
+
+.card-pricing-includes-grid {
+    margin-bottom: 80px;
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 30px;
+    }
+
+    .card-pricing-include-item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px dashed rgba(40, 51, 74, 0.1);
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 30px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.card-pricing-order-block {
+    margin-bottom: 60px;
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 70px;
+    }
+}
+
+.card-pricing-value {
+    margin-bottom: 0.8em;
+    font-size: 30px;
+    font-weight: 700;
+    @include media-breakpoint-up(md) {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,22 @@
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 750px,
+	lg: 970px,
+	xl: 1200px,
+	xxl: 1680px
+);
+
+$font-family-sans-serif: "Manrope", sans-serif;
+
+// colors
+$default: #28334A;
+$default-100: rgba($default, .6);
+$black: #000;
+$white: #fff;
+
+
+$secondary: #9CADBD;
+$default-heading: #000000;
+
+$g-radius: 0;

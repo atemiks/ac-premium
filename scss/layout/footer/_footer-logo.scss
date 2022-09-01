@@ -1,0 +1,17 @@
+.footer-logo {
+    display: block;
+    margin-bottom: 30px;
+
+    &:hover {
+        border: none;
+    }
+}
+
+.footer-logo-image {
+    width: 202px;
+    height: 38px;
+    @include media-breakpoint-up(lg) {
+        width: 319px;
+        height: 59px;
+    }
+}

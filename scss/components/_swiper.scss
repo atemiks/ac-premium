@@ -1,0 +1,97 @@
+.swiper-cover {
+    position: relative;
+
+    .swiper-container {
+        position: static;
+    }
+}
+
+.swiper-slide {
+    height: auto;
+}
+
+.swiper-button {
+    cursor: pointer;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: none;
+    transform: none;
+
+    .swiper-navigation & {
+        margin-left: 5px;
+        margin-right: 5px;
+        @include media-breakpoint-up(lg) {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+}
+
+.swiper-button-light {
+    color: $white;
+}
+
+.swiper-button-outline {
+    width: 36px;
+    height: 36px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    @include media-breakpoint-up(md) {
+        width: 42px;
+        height: 42px;
+    }
+    @include media-breakpoint-up(lg) {
+        width: 55px;
+        height: 55px;
+    }
+
+    .swiper-button-icon {
+        width: 18px;
+        height: 18px;
+        @include media-breakpoint-up(md) {
+            width: 20px;
+            height: 20px;
+        }
+        @include media-breakpoint-up(lg) {
+            width: 23px;
+            height: 23px;
+        }
+    }
+}
+
+.swiper-pagination {
+    position: static;
+}
+
+.swiper-pagination-bullet {
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+    background-color: $default-100;
+    @include media-breakpoint-up(lg) {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+.swiper-pagination-bullet-active {
+    background-color: $default;
+}
+
+.swiper-container-horizontal {
+    > .swiper-pagination-bullets {
+        .swiper-pagination-bullet {
+            margin: 0 6px;
+            @include media-breakpoint-up(lg) {
+                margin-left: 13px;
+                margin-right: 13px;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.section-feedback {
+    margin-top: 125px;
+    margin-bottom: 125px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    @include media-breakpoint-up(lg) {
+        margin-top: 145px;
+        margin-bottom: 145px;
+        padding-top: 100px;
+        padding-bottom: 90px;
+    }
+    
+    .section-header {
+        margin-bottom: 115px;
+    }
+
+    .section-title {
+        font-size: 28px;
+        @include media-breakpoint-up(md) {
+            font-size: 32px;
+        }
+        @include media-breakpoint-up(xl) {
+            font-size: 48px;
+        }
+    }
+}
+
+.form-feedback {
+    .row {
+        @include media-breakpoint-up(xxl) {
+            margin-left: -$grid-gutter-width*2;
+            margin-right: -$grid-gutter-width*2;
+        }
+    }
+
+    .col,
+    [class*="col-"] {
+        @include media-breakpoint-up(xxl) {
+            padding-left: $grid-gutter-width*2;
+            padding-right: $grid-gutter-width*2;
+        }
+    }
+
+    .btn {
+        &[type='submit'] {
+            margin-top: 45px;
+
+            @include media-breakpoint-up(md) {
+                margin-top: 0;
+            }
+        }
+    }
+}

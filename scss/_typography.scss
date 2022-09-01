@@ -1,0 +1,160 @@
+html,
+body {
+    min-width: 320px;
+    height: 100%;
+    color: $default;
+    font-family: $font-family-sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    @include media-breakpoint-up(md) {
+        font-size: 16px;
+    }
+}
+
+body {
+    padding-top: 220px;
+    @include media-breakpoint-up(lg) {
+        padding-top: 110px;
+    }
+    @include media-breakpoint-up(xxl) {
+        padding-top: 155px;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title-h1,
+.title-h2,
+.title-h3,
+.title-h4,
+.title-h5,
+.title-h6 {
+    line-height: normal;
+
+    a {
+        color: inherit;
+    }
+}
+
+
+h1,
+.title-h1 {
+    font-size: 25px;
+    font-weight: 400;
+    @include media-breakpoint-up(md) {
+        font-size: 44px;
+    }
+    @include media-breakpoint-up(lg) {
+        font-size: 68px;
+    }
+
+    b {
+        font-size: 32px;
+        @include media-breakpoint-up(md) {
+            font-size: inherit;
+        }
+    }
+}
+
+h2,
+.title-h2 {
+    font-size: 24px;
+    @include media-breakpoint-up(md) {
+        font-size: 30px;
+    }
+    @include media-breakpoint-up(lg) {
+        font-size: 44px;
+    } 
+}
+
+h3,
+.title-h3 {
+    font-size: 18px;
+    @include media-breakpoint-up(md) {
+        font-size: 24px;
+    }
+    @include media-breakpoint-up(lg) {
+        font-size: 30px;
+    } 
+}
+
+h4,
+.title-h4 {
+    font-size: 18px;
+    @include media-breakpoint-up(md) {
+        font-size: 22px;
+    }
+    @include media-breakpoint-up(lg) {
+        font-size: 26px;
+    } 
+}
+
+h5,
+.title-h5 {
+    margin: 0 0 0.7em;
+    font-size: 16px;
+    @include media-breakpoint-up(md) {
+        font-size: 20px;
+    }
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 1.2em;
+        font-size: 22px;
+    }
+}
+
+h6,
+.title-h6 {
+    font-size: 16px;
+    @include media-breakpoint-up(md) {
+        font-size: 18px;
+    } 
+}
+
+a {
+    border-bottom: 1px solid transparent;
+    color: $default;
+    text-decoration: none;
+    transition: border-color 300ms ease, color 300ms ease;
+
+    &:hover {
+        color: $default-100;
+        text-decoration: none;
+        border-color: currentColor;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1320px;
+}
+
+.section-header {
+    margin-bottom: 50px;
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 70px;
+    }
+}
+
+.section-title {
+    margin: 0;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    @include media-breakpoint-up(md) {
+        font-size: 18px;
+    }
+}
+
+.section-dark {
+    background: $default;
+    color: $white;
+}

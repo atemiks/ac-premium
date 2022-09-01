@@ -1,0 +1,25 @@
+.section-pricing {
+    margin-top: 110px;
+    margin-bottom: 110px;
+    @include media-breakpoint-up(lg) {
+        margin-top: 140px;
+        margin-bottom: 140px;
+    }
+
+    .section-header {
+        margin-bottom: 20px;
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.pricing-list {
+    > .card-pricing {
+        border-bottom: 1px solid currentColor;
+
+        &:first-of-type {
+            border-top: 1px solid currentColor;
+        }
+    }
+}

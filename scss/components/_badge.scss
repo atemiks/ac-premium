@@ -1,0 +1,15 @@
+.badge {
+    min-width: 20px;
+    height: 20px;
+    padding: 0 3px;
+    background: $danger;
+    transform: translateY(-50%);
+    color: $white;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.badge-round {
+    border-radius: 50%;
+}

@@ -1,0 +1,20 @@
+.tooltip-inner {
+    max-width: 390px;
+    padding: 25px 50px 25px 25px;
+    border-radius: $g-radius;
+    background: rgba($black, .9);
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    @include media-breakpoint-up(xl) {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+.bs-tooltip-bottom, 
+.bs-tooltip-auto[x-placement^="bottom"] {
+    .arrow {
+        left: 20px !important;
+    }
+}

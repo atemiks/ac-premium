@@ -1,0 +1,12 @@
+.os-theme-dark {
+    > .os-scrollbar  {
+        > .os-scrollbar-track {
+            background: $gray;
+            
+            > .os-scrollbar-handle {
+                min-height: 74px;
+                background: $primary;
+            }
+        }
+    }
+}

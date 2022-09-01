@@ -1,0 +1,12 @@
+.section-display {
+    margin-top: 0;
+    margin-bottom: 80px;
+    @include media-breakpoint-up(lg) {
+        margin-top: 60px;
+        margin-bottom: 120px;
+    }
+}
+
+.display-1 {
+    margin: 0;
+}
