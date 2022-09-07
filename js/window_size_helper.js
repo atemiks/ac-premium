@@ -1,8 +1,8 @@
 (function ($, window) {
-    var mobileWidth = 969,
+    let mobileWidth = 969,
         phoneWidth = 575;
 
-    var windowWidth = window.innerWidth;
+    let windowWidth = window.innerWidth;
 
     function setWindowWidth() {
         if (windowWidth != window.innerWidth) {

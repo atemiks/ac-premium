@@ -14,15 +14,3 @@ $(function () {
     $(offcanvasOpenButton).on('click', openOffcanvas);
     $(offcanvasCloseButton).on('click', closeOffcanvas);
 });
-
-
-/* todo */
-// beforeWindowWidthResizeFunctions.push(function () {
-//     if (windowSizeHelper.isMobileToDesktopResize()) {
-//         closeOffcanvas();
-//     }
-// });
-
-// document.addEventListener('DOMContentLoaded', function (){
-//     $(document).on('click', '#backdrop', closeOffcanvas);
-// })

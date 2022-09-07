@@ -3,7 +3,7 @@
     z-index: 99;
     top: 0;
     left: 0;
-    right: 0;
+    width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid transparent;
@@ -20,7 +20,7 @@
         padding-bottom: 45px;
     }
 
-    &.is-fixed {
+    &.is-scrolled {
         padding-top: 10px;
         padding-bottom: 10px;
         border-color: currentColor;

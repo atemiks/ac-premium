@@ -70,11 +70,6 @@
     }
 }
 
-.btn-outline {
-    background: transparent;
-    color: $default;
-}
-
 .btn-white {
     background-color: $white;
     color: $default;
@@ -84,6 +79,13 @@
         background: transparent;
         color: $white;
     }
+}
+
+
+.btn-outline {
+    background: transparent;
+    border-color: currentColor;
+    color: currentColor;
 }
 
 .btn-link {

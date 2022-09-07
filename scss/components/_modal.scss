@@ -21,6 +21,8 @@
     border: none;
     border-radius: 0;
     padding: 30px;
+    background: url('../images/modals/modal-bg-top.svg') top right no-repeat, url('../images/modals/modal-bg-bottom.svg') bottom left no-repeat;
+    background-color: #fff;
     @include media-breakpoint-up(md) {
         padding-left: 60px;
         padding-right: 60px;

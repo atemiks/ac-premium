@@ -1,5 +1,6 @@
 html,
 body {
+    position: relative;
     min-width: 320px;
     height: 100%;
     color: $default;
@@ -155,6 +156,6 @@ img {
 }
 
 .section-dark {
-    background: $default;
+    background-color: $default;
     color: $white;
 }

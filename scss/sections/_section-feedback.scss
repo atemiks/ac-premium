@@ -3,6 +3,13 @@
     margin-bottom: 125px;
     padding-top: 60px;
     padding-bottom: 70px;
+    background-image: url('../images/section-feedback/section-feedback-bg-mobile.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include media-breakpoint-up(md) {
+        background-image: url('../images/section-feedback/section-feedback-bg-desktop.svg');
+    }
     @include media-breakpoint-up(lg) {
         margin-top: 145px;
         margin-bottom: 145px;

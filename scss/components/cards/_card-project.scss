@@ -60,6 +60,29 @@
     object-position: center;
 }
 
+
+.card-project-cta-overlay {
+    pointer-events: none;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.3333%;
+    height: 100%;
+    transform: translateX(-50%);
+    background: $default;
+    transition: opacity 300ms ease;
+
+    .card-project:hover & {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
 .card-project-button-prev,
 .card-project-button-next {
     position: absolute;

@@ -2,11 +2,11 @@ let headerContainer = $('.header-box');
 
 function fixedHeader() {
     if(window.pageYOffset > 0) {
-        $(headerContainer).addClass('is-fixed');
+        $(headerContainer).addClass('is-scrolled');
     }
 
     if(!window.pageYOffset > 0) {
-        $(headerContainer).removeClass('is-fixed');
+        $(headerContainer).removeClass('is-scrolled');
     }
 }
 

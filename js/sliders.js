@@ -11,6 +11,11 @@ $('.swiper-intro').each(function (_, container) {
         pagination: {
             el: '.swiper-intro-pagination',
             type: 'bullets',
+            clickable: true,
+        },
+
+        autoplay: {
+            delay: 2000,
         },
     });
 });
