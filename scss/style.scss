@@ -3,8 +3,6 @@
 /* vendors */ 
 @import '../vendor/bootstrap-4.6.0/scss/bootstrap';
 @import '../vendor/swiper/swiper.css';
-// @import '../vendor/select2/dist/css/select2.css';
-// @import '../vendor/OverlayScrollbars/css/OverlayScrollbars.css';
 @import '../vendor/fancybox/dist//jquery.fancybox.css';
 
 
@@ -13,35 +11,13 @@
 @import 'typography';
 
 /* components */ 
+@import 'components/breadcrumb';
 @import 'components/forms';
 @import 'components/buttons';
 @import 'components/social';
 @import 'components/swiper';
 @import 'components/pagination';
 @import 'components/modal';
-
-
-// @import 'components/badge';
-// @import 'components/breadcrumb';
-// @import 'components/search';
-
-// @import 'components/select2';
-
-// @import 'components/overlay_scrollbar';
-// @import 'components/tabs';
-// @import 'components/master';
-
-// @import 'components/location';
-// @import 'components/filter';
-// @import 'components/status';
-
-// @import 'components/tooltip';
-// @import 'components/dropdown';
-// @import 'components/backdrop';
-
-
-
-
 
 /* cards */ 
 @import 'components/cards/card-about';
@@ -50,10 +26,6 @@
 @import 'components/cards/card-partner';
 @import 'components/cards/card-pricing';
 @import 'components/cards/card-article';
-// @import 'components/cards/card-category';
-// @import 'components/cards/card-benefit';
-// @import 'components/cards/card-banner';
-// @import 'components/cards/card-catalog';
 
 /* header */
 @import 'layout/header/header';
@@ -70,15 +42,6 @@
 @import 'sections/section-pricing';
 @import 'sections/section-articles';
 @import 'sections/section-contact';
-
-
-// @import 'sections/section-categories';
-// @import 'sections/section-benefits';
-// @import 'sections/section-featured-categories';
-// @import 'sections/section-featured-products';
-// @import 'sections/section-reviews';
-// @import 'sections/section-contact';
-// @import 'sections/section-recently-viewed';
 
 /* page home */
 @import 'pages/page-home/home';

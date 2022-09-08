@@ -589,12 +589,31 @@
     </div>
 
     <div class="modal" id="modal-thanks" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dark modal-sm">
             <div class="modal-content">
-                <div class="modal-header d-flex flex-column">
+                <div class="modal-header d-flex flex-column align-items-center">
                     <h3 class="modal-title title-h3 text-center text-uppercase">Спасибо!</h3>
                     <div class="modal-subtitle text-center">
                         <p>Ваши данные успешно отправлены, наши специалисты свяжутся с вами в ближайшее время!</p>
+                    </div>
+
+                    <button type="button" class="modal-close" data-dismiss="modal" aria-label="Закрыть">
+                        <svg class="modal-close-icon" width="20" height="20">
+                            <use xlink:href="images/sprite.svg#icon-close"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-thanks-request" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dark modal-sm">
+            <div class="modal-content">
+                <div class="modal-header d-flex flex-column align-items-center">
+                    <h3 class="modal-title title-h3 text-center text-uppercase">Спасибо за отклик!</h3>
+                    <div class="modal-subtitle text-center">
+                        <p>Ваши данные успешно отправлены, мы рассмотрим ваше резюме и свяжемся в ближайшее время!</p>
                     </div>
 
                     <button type="button" class="modal-close" data-dismiss="modal" aria-label="Закрыть">
