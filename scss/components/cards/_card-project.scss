@@ -78,8 +78,10 @@
     transition: opacity 300ms ease;
 
     .card-project:hover & {
-        opacity: 1;
-        visibility: visible;
+        @include media-breakpoint-up(md) {
+            opacity: 1;
+            visibility: visible;
+        }
     }
 }
 
